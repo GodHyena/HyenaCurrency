@@ -1,0 +1,23 @@
+name: HyenaCurrency
+version: 1.0.0
+main: dev.hyenacurrency.HyenaCurrency
+api-version: 1.20
+author: HyenaDev
+description: Multi-currency economy system without Vault
+
+commands:
+  money:
+    description: Manage your money
+    usage: /money help
+    aliases: [m]
+  mobcoin:
+    description: Manage your mobcoins
+    usage: /mobcoin help
+    aliases: [mc]
+  gem:
+    description: Manage your gems
+    usage: /gem help
+    aliases: [g]
+  economy:
+    description: Convert between currencies
+    usage: /economy <from> <to> <amount>
