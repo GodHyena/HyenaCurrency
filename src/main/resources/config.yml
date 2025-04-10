@@ -1,0 +1,37 @@
+ranks:
+  default:
+    tax: 5
+    cooldown: 300
+    daily-limit: 5
+  vip:
+    tax: 2
+    cooldown: 150
+    daily-limit: 10
+  mvp:
+    tax: 1
+    cooldown: 60
+    daily-limit: 20
+  elite:
+    tax: 0
+    cooldown: 30
+    daily-limit: 40
+
+mob-rewards:
+  neutral:
+    min: 2
+    max: 3
+  easy:
+    min: 4
+    max: 6
+  hard:
+    min: 8
+    max: 12
+  boss:
+    ender_dragon: 100
+    wither: 200
+    warden: 300
+
+boss-bonus:
+  vip: 5
+  mvp: 10
+  elite: 20
