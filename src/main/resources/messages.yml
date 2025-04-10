@@ -1,0 +1,41 @@
+prefix: "&8[&aHyenaCurrency&8] &r"
+
+balance:
+  self: "%prefix% Your %currency% balance is: &6%amount%"
+  other: "%prefix% %player%'s %currency% balance is: &6%amount%"
+
+send:
+  success: "%prefix% You sent &6%amount% %currency% to &e%player%"
+  receive: "%prefix% You received &6%amount% %currency% from &e%player%"
+  insufficient: "%prefix% You do not have enough %currency%"
+  insufficient-tax: "%prefix% You do not have enough to cover the tax: &6%tax%"
+  not-enough: "%prefix% You need at least &6%amount% %currency% to send"
+  cooldown: "%prefix% You must wait &c%time%s &rbefore sending again"
+  daily-limit: "%prefix% You have reached your daily send limit"
+
+request:
+  sent: "%prefix% You requested &6%amount% %currency% from &e%player%"
+  received: "%prefix% &e%player% &7has requested &6%amount% %currency% from you. &a/money accept &7or &c/money deny"
+  accepted: "%prefix% Request accepted. You sent &6%amount% %currency%"
+  denied: "%prefix% Request denied."
+  timeout: "%prefix% Request timed out."
+  cooldown: "%prefix% Please wait before requesting again."
+
+add:
+  success: "%prefix% &a%amount% %currency% has been added to &e%player%'s account"
+  notify: "%prefix% &a%amount% %currency% has been added to your account by an admin"
+
+help:
+  header: "&8==== &aHyenaCurrency Help &8===="
+  balance: "&e/%currency% balance &7- Check your %currency% balance"
+  send: "&e/%currency% send <player> <amount> &7- Send %currency%"
+  request: "&e/%currency% request <player> <amount> &7- Request %currency%"
+  add: "&e/%currency% add <player> <amount> &7- (Admin) Add %currency%"
+  convert: "&e/economy <from> <to> <amount> &7- Convert currency"
+
+pvp:
+  gained: "%prefix% You gained &6%amount% %currency% from killing &e%player%"
+
+mob:
+  reward: "%prefix% You earned &6%amount% MobCoins for killing &e%mob%"
+  bonus: "%prefix% Bonus! You gained &6%bonus% extra MobCoins"
